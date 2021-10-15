@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chandranshu's CODEPLAYER</title>
+    <link rel="icon" href="logo2.png" type='image/png'>
+
+    <script src='jQuery.js'></script>
+    <script src='jquery-ui/jquery-ui.js'></script>
+
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+
+    <link rel="stylesheet" href="codeplayer.css">
+</head>
+
+<body>
+    <div id="heading">
+
+        <div id="logo">
+            CodePlayer <sub><small><small><small>by- Chandranshu Gautam</small></small></small></sub>
+        </div>
+
+        <div id="Box">
+            <div class="element clickBlue" id='html'>HTML</div>
+            <div class="element" id='CSS'>CSS</div>
+            <div class="element" id='JavaScript'>JavaScript</div>
+            <div class="element clickBlue" id='output'>Output</div>
+        </div>
+
+
+    </div>
+
+    <div id="bodyContainer">
+        <textarea id='htmlPanel' class='panel'> <p id='some-text'> Hello World!</p></textarea>
+        <textarea id='CSSPanel' class='panel hidden'>p{ color:green; }</textarea>
+        <textarea id='JavaScriptPanel' class='panel hidden'>document.getElementById('some-text').innerHTML='Hi Chandranshu';</textarea>
+        <iframe id='outputPanel' class='panel'></iframe>
+    </div>
+
+
+    <script src="codeplayer.js"></script>
+</body>
+
+</html>

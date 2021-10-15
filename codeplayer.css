@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+#heading {
+    height: 35px;
+    background-color: #EDEDED;
+    border-bottom: 1px solid #BFBFBF;
+    padding: 7px;
+}
+
+#logo {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    padding: 5px;
+}
+
+#Box {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.element {
+    float: left;
+    padding: 7px;
+    border: 1px solid #808080;
+}
+
+#html {
+    border-radius: 5px 0 0 5px;
+}
+
+#output {
+    border-radius: 0 5px 5px 0;
+}
+
+.highlighted {
+    background-color: gray;
+}
+
+.clickBlue {
+    background-color: #b8cfee;
+}
+
+textarea {
+    width: 50%;
+    resize: none;
+    border-top: none;
+}
+
+.panel {
+    float: left;
+    border-left: none;
+}
+
+iframe {
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
